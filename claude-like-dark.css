@@ -395,6 +395,10 @@ tt {
     font-family: var(--font-mono) !important;
 }
 
+#typora-source .cm-s-inner {
+    color: var(--code-text-color) !important;
+}
+
 .md-fences code,
 .md-fences tt {
     border: 0 !important;
@@ -451,6 +455,13 @@ tt {
 .md-fences .cm-operator,
 .md-fences .cm-variable,
 .md-fences .cm-bracket {
+    color: var(--code-text-color) !important;
+}
+
+#typora-source .cm-s-inner .cm-operator,
+#typora-source .cm-s-inner .cm-property,
+#typora-source .cm-s-inner .cm-variable,
+#typora-source .cm-s-inner .cm-bracket {
     color: var(--code-text-color) !important;
 }
 
